@@ -6,7 +6,7 @@ const users = [
             street: "Hlavná",
             number: 12,
             city: "Bratislava",
-            postalCode: "811 01",
+            postCode: "811 01",
         },
     },
     {
@@ -16,7 +16,7 @@ const users = [
             street: "Kvetná",
             number: 3,
             city: "Košice",
-            postalCode: "040 01",
+            postCode: "040 01",
         },
     },
     {
@@ -26,7 +26,7 @@ const users = [
             street: "Záhradná",
             number: 10,
             city: "Nitra",
-            postalCode: "949 01",
+            postCode: "949 01",
         },
     },
     {
@@ -36,7 +36,7 @@ const users = [
             street: "Hviezdoslavova",
             number: 7,
             city: "Prešov",
-            postalCode: "080 01",
+            postCode: "080 01",
         },
     },
     {
@@ -46,7 +46,7 @@ const users = [
             street: "Partizánska",
             number: 23,
             city: "Žilina",
-            postalCode: "010 01",
+            postCode: "010 01",
         },
     },
     {
@@ -56,7 +56,7 @@ const users = [
             street: "Slnečná",
             number: 15,
             city: "Trnava",
-            postalCode: "917 01",
+            postCode: "917 01",
         },
     },
     {
@@ -66,7 +66,7 @@ const users = [
             street: "Nová",
             number: 4,
             city: "Zvolen",
-            postalCode: "960 01",
+            postCode: "960 01",
         },
     },
     {
@@ -76,7 +76,7 @@ const users = [
             street: "Štefánikova",
             number: 2,
             city: "Banská Bystrica",
-            postalCode: "974 01",
+            postCode: "974 01",
         },
     },
     {
@@ -86,7 +86,7 @@ const users = [
             street: "Kukučínova",
             number: 21,
             city: "Poprad",
-            postalCode: "058 01",
+            postCode: "058 01",
         },
     },
     {
@@ -96,7 +96,7 @@ const users = [
             street: "Mierová",
             number: 9,
             city: "Martin",
-            postalCode: "036 01",
+            postCode: "036 01",
         },
     },
 ];
