@@ -1,3 +1,10 @@
+/*
+1. Vytvořte funkci transformFahrenheitToCelsius, která přijímá teplotu ve stupních
+Fahrenheit a vrací ekvivalentní teplotu v stupních Celsius.
+○ Vytvořte funkci transformCelsiusToFahrenheit, která provádí opačnou
+konverzi.
+*/
+
 function transformFahrenheitToCelsius(fahrenheit) {
   return ((fahrenheit - 32) * 5) / 9;
 }
