@@ -6,7 +6,7 @@ Bonus (+3 body)
 1 a samo sebe.
 */
 
-function isPrime(num) {
+const isPrime = (num) => {
     if (num < 2) return false;
     for (let i = 2; i <= Math.sqrt(num); i++) {
         if (num % i === 0) return false;
@@ -14,7 +14,7 @@ function isPrime(num) {
     return true;
 }
 
-function writeNumberIsPrimeFromTo(startFrom, endTo) {
+const writeNumberIsPrimeFromTo = (startFrom, endTo) => {
     console.log(`Prvocisla v rozsahu od ${startFrom} do ${endTo}: `);
     for (let j = startFrom; j <= endTo; j++) {
         if (isPrime(j)) {
@@ -23,4 +23,4 @@ function writeNumberIsPrimeFromTo(startFrom, endTo) {
     }
 }
 
-writeNumberIsPrimeFromTo(5, 20)
+writeNumberIsPrimeFromTo(1459, 1555)
