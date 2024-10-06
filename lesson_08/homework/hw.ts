@@ -37,8 +37,8 @@ const fetchDataUser = async (): Promise<User[]> => {
     try {
         const response = await fetch(apiUrl);
         const data: User[] = await response.json();
-        //console.table(data); // Preco adress a company su obe object??? len miesto???
-        //console.log(data); // Preco tu nesu uz adress a company object, ale geo je??? len miesto???
+        console.table(data); // Preco adress a company su obe object??? len miesto???
+        console.log(data); // Preco tu nesu uz adress a company object, ale geo je??? len miesto???
         return data;
     } catch (error) {
         console.error(error);
