@@ -3,29 +3,30 @@
 Cíl: Vytvořit React komponentu, která načítá a zobrazuje seznam uživatelů z API
 pomocí hooku useEffect.
 
-● Nastavení projektu:
-    ○ Vytvořte nový React projekt pomocí Create React App:
+- Nastavení projektu:
+    - Vytvořte nový React projekt pomocí Create React App:
 
-    npx create-react-app data-fetching-hw --template typescript
+        npx create-react-app data-fetching-hw --template typescript
 
-    ○ Přejděte do nově vytvořené složky:
-    cd data-fetching-hw
+    - Přejděte do nově vytvořené složky:
+        cd data-fetching-hw
 
-● Vytvoření komponenty:
-    ○ V src/components složce vytvořte nový soubor s názvem UserList.tsx
-    ○ V tomto souboru vytvořte funkční komponentu UserList
-    ○ Nezapomeňte vytvořit barrel file index.ts, abychom neměli nehezké importy
-● Pomocí useEffect a useState načtěte seznam uživatelů z mockAPI
-    ○ https://jsonplaceholder.typicode.com/users
-● Renderování komponenty:
-    ○ Zobrazte zprávu &quot;Načítání...&quot; když se data načítají (použijte state)
-    ○ Po načtení dat zobrazte seznam jmen uživatelů
-    ○ Pro každého uživatele zobrazte jméno, email a název společnosti
-● Nezapomeňte komponentu vyrenderovat v App
-● Implementujte zachycení a zobrazení chyb:
-    ○ Přidejte nový state pro ukládání chybových zpráv
-    ○ Zobrazte chybovou zprávu uživateli, pokud načtení dat selže
+- Vytvoření komponenty:
+    - V src/components složce vytvořte nový soubor s názvem UserList.tsx
+    - V tomto souboru vytvořte funkční komponentu UserList
+    - Nezapomeňte vytvořit barrel file index.ts, abychom neměli nehezké importy
+- Pomocí useEffect a useState načtěte seznam uživatelů z mockAPI
+    - https://jsonplaceholder.typicode.com/users
+- Renderování komponenty:
+    - Zobrazte zprávu &quot;Načítání...&quot; když se data načítají (použijte state)
+    - Po načtení dat zobrazte seznam jmen uživatelů
+    - Pro každého uživatele zobrazte jméno, email a název společnosti
+- Nezapomeňte komponentu vyrenderovat v App
+- Implementujte zachycení a zobrazení chyb:
+    - Přidejte nový state pro ukládání chybových zpráv
+    - Zobrazte chybovou zprávu uživateli, pokud načtení dat selže
 
+##
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
