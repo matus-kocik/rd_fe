@@ -25,12 +25,12 @@ export const UserList = () => {
             try {
                 const response = await fetch("https://jsonplaceholder.typicode.com/users");
                 if (!response.ok) {
-                    throw new Error("Failed to fetch users");
+                    throw new Error(`HTTP error! Status: ${response.status} - ${response.statusText} - Failed to fetch users`);
                 }
                 const data: User[] = await response.json();
                 setUser(data);
             } catch (error) {
-                setError((error as Error).message);
+                setError((error as Error).message || "An unexpected error occurred. Please try again later.");
             } finally {
                 setLoading(false);
             }
